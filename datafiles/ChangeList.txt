@@ -1,0 +1,75 @@
+Version 1.0.1:
+
+- Fixed a critical memory leak where segments weren't getting deleted properly
+
+	(oSegment > Step)
+	Added following step event:
+	///Update segments
+	if (endX < view_xview[0] - 300)
+	{
+    		// destroy when out of view
+    		instance_destroy();
+	}
+
+Version 1.0.2:
+
+- Fixed the view when running on mobile in portrait mode
+
+	(Script > InitialiseControl)
+	Changed line 13 and 14 to:
+	winHeight = view_hview[0];
+	winWidth = view_wview[0];
+	
+	-------
+
+	(Script > GetNextHillPosition)
+	Additional fix for endless loop issue created by above fix. Change line 10 to:
+	if(ny < window_get_height()-paddingTop && ny > paddingBottom)
+
+- Added coins (new object - oCoin)
+
+	(Script > CreateHillPoint)
+	Added logic to decide if point gets coins
+	// Decide if this hill point gets coins
+	// Make sure we dont check an undefined hill point
+	if (oControl.hillPoints[| totalHills-1] != undefined)
+	{   
+	    	// random chance and going down (first part of hill)
+    		if ((random(10)> 8) and dir = -1)
+    		{
+  	      		// Set this part to have coins
+   	     		inst.hasCoins = true;
+   	     		// Set next part to have coins
+  	      		nextHasCoins = true;
+   	 }
+   	 		// if we're now on the second part
+   	 	else if (nextHasCoins)
+  	  	{
+    	    		// This part also has coins
+   	     		inst.hasCoins = true;
+   	     		// Reset this flag
+   	     		nextHasCoins = false;
+   	 	}
+	}
+
+	-------
+
+	(oControl > DrawGUI)
+	Added coin counter drawn on screen
+	draw_text(5, 25, "Coins = " + string(oBird.totalCoins));
+
+	-------
+
+	(oHillPoint > Alarm 0)
+	Added coin creation at line 31
+	// If this hill point gets coins
+    	if (hasCoins)
+    	{
+        	// Add them to each segment
+        	instance_create(point0X, point0Y -20, oCoin); 
+    	}
+
+	------
+
+	Added font for HTML5
+

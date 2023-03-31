@@ -1,0 +1,9 @@
+__view_set( e__VW.WView, 0, 1 );
+__view_set( e__VW.HView, 0, 1 );
+__view_set( e__VW.XView, 0, room_width/2 );
+__view_set( e__VW.YView, 0, room_width/2 );
+excel=1;
+
+resx=1920;
+resy=1080;
+

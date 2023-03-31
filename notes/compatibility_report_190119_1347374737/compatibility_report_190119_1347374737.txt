@@ -1,0 +1,210 @@
+Converting GML script: ${project_dir}\scripts\InitialiseControl\InitialiseControl.gml
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Font font0 has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\oControl\Create_0.gml
+Converted description /// @description  Initialise variables and starting hills
+
+Converting GML script: ${project_dir}\objects\oControl\Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 28: view_xview = oBird.phy_position_x-150 -> __view_set( e__VW.XView, 0, oBird.phy_position_x-150 )
+Converted builtin - line 36: view_yview += (oBird.phy_linear_velocity_y*0.03) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + ((oBird.phy_linear_velocity_y*0.03)) )
+Converted builtin - line 34: view_wview -= (oBird.phy_linear_velocity_y*0.03) -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) - ((oBird.phy_linear_velocity_y*0.03)) )
+Converted builtin - line 31: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview -= (oBird.phy_linear_velocity_y*0.03) -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - ((oBird.phy_linear_velocity_y*0.03)) )
+Converted description /// @description Update hill points and view
+
+Converting GML script: ${project_dir}\objects\oControl\Other_10.gml
+Converted description /// @description Create new hill point
+
+Converting GML script: ${project_dir}\objects\oControl\Draw_64.gml
+Converted description /// @description  On screen info
+
+Converting GML script: ${project_dir}\objects\oControl\Draw_0.gml
+Converted description /// @description  Physics debug draw
+
+Converting GML script: ${project_dir}\objects\oControl\KeyPress_17.gml
+Converted description /// @description Toggle debug
+
+Converting GML script: ${project_dir}\objects\oHillPoint\Create_0.gml
+Converted description /// @description Initialise variables
+
+Converting GML script: ${project_dir}\objects\oHillPoint\Alarm_0.gml
+Converted description /// @description  Create segments
+
+Converting GML script: ${project_dir}\objects\oHillPoint\Draw_0.gml
+Converted description /// @description  Debug draw
+
+Converting GML script: ${project_dir}\objects\oSegment\Create_0.gml
+Converted description /// @description  Initialise start and end points
+
+Converting GML script: ${project_dir}\objects\oSegment\Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description Update segments
+
+Converting GML script: ${project_dir}\objects\oSegment\Draw_0.gml
+Converted description /// @description  Draw segment
+
+Converting GML script: ${project_dir}\objects\oBird\Create_0.gml
+Converted description /// @description  Initialise variables and physics
+
+Converting GML script: ${project_dir}\objects\oBird\Step_0.gml
+Converted description /// @description Update player
+
+Converting GML script: ${project_dir}\objects\oBird\Collision_23435fa6-9622-439e-84cb-e5722125c843.gml
+Converted description /// @description Physics
+
+Converting GML script: ${project_dir}\objects\oBird\Collision_e3c51c56-fa5b-4299-9c69-4fb5bda4fe5a.gml
+Converted description /// @description Physics
+
+Converting GML script: ${project_dir}\objects\oCoin\Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description Update coin
+
+Converting GML script: ${project_dir}\objects\o_music\Draw_64.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 11: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oPlat\Create_0.gml
+Converted builtin - line 4: view_yview[0]=0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 1: view_wview[0]=1 -> __view_set( e__VW.WView, 0, 1 )
+Converted builtin - line 2: view_hview[0]=1 -> __view_set( e__VW.HView, 0, 1 )
+
+Converting GML script: ${project_dir}\objects\oPlat\Step_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview[0]+=excel -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (excel) )
+Converted builtin - line 21: view_wview[0]= room_width -> __view_set( e__VW.WView, 0, room_width )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_hview[0]+=excel -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) + (excel) )
+Converted builtin - line 15: view_hview[0]= resy -> __view_set( e__VW.HView, 0, resy )
+
+Converting GML script: ${project_dir}\objects\ERRORfx\Create_0.gml
+Converted builtin - line 3: view_xview[0]=room_width/2 -> __view_set( e__VW.XView, 0, room_width/2 )
+Converted builtin - line 4: view_yview[0]=room_width/2 -> __view_set( e__VW.YView, 0, room_width/2 )
+Converted builtin - line 1: view_wview[0]=1 -> __view_set( e__VW.WView, 0, 1 )
+Converted builtin - line 2: view_hview[0]=1 -> __view_set( e__VW.HView, 0, 1 )
+
+Converting GML script: ${project_dir}\objects\ERRORfx\Step_0.gml
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0]+=1 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (1) )
+Converted builtin - line 11: view_yview[0]= resy -> __view_set( e__VW.YView, 0, resy )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_wview[0]+= room_width - resx -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (room_width - resx) )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\ERRORfx2\Create_0.gml
+Converted builtin - line 3: view_xview[0]=room_width/2 -> __view_set( e__VW.XView, 0, room_width/2 )
+Converted builtin - line 4: view_yview[0]=0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 1: view_wview[0]=1 -> __view_set( e__VW.WView, 0, 1 )
+Converted builtin - line 2: view_hview[0]=1 -> __view_set( e__VW.HView, 0, 1 )
+
+Converting GML script: ${project_dir}\objects\ERRORfx2\Step_0.gml
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0]= resy -> __view_set( e__VW.YView, 0, resy )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview[0]+=10+excel -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (10+excel) )
+Converted builtin - line 8: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 10: view_hview[0]+=10+excel -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) + (10+excel) )
+
+Converting GML script: ${project_dir}\objects\game_controller\Step_0.gml
+Converted description /// @description The good stuffs (swipe handling)/// @param swipe handling
+
+Converting GML script: ${project_dir}\objects\obj_swipeAnyway\Create_0.gml
+Converted description /// @description Set up important stuffs
+
+Converting GML script: ${project_dir}\objects\obj_swipeAnyway\Step_0.gml
+Converted description /// @description The good stuffs (swipe handling)/// @param swipe handling
+
+Converting GML script: ${project_dir}\objects\obj_swipeFour\Create_0.gml
+Converted description /// @description Set up important stuffs
+
+Converting GML script: ${project_dir}\objects\obj_swipeFour\Step_0.gml
+Converted description /// @description The good stuffs (swipe handling)/// @param swipe handling
+
+Converting GML script: ${project_dir}\objects\obj_swipeFour\Draw_0.gml
+Converted description /// @description Drawing stuffs
+
+Converting GML script: ${project_dir}\objects\obj_swipeEight\Create_0.gml
+Converted description /// @description Set up important stuffs
+
+Converting GML script: ${project_dir}\objects\obj_swipeEight\Step_0.gml
+Converted description /// @description The good stuffs (swipe handling)/// @param swipe handling
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'snd_b1' - setting to default audio group
+Missing audiogroup for sound: 'snd_b2' - setting to default audio group
+Missing audiogroup for sound: 'snd_b3' - setting to default audio group
+Missing audiogroup for sound: 'snd_b4' - setting to default audio group
+Missing audiogroup for sound: 'snd_b5' - setting to default audio group
+Missing audiogroup for sound: 'snd_b6' - setting to default audio group
+Missing audiogroup for sound: 'snd_b7' - setting to default audio group
+Missing audiogroup for sound: 'snd_b8' - setting to default audio group
+Missing audiogroup for sound: 'snd_b9' - setting to default audio group
+Missing audiogroup for sound: 'snd_b10' - setting to default audio group
+Missing audiogroup for sound: 'snd_b11' - setting to default audio group
+Missing audiogroup for sound: 'snd_b12' - setting to default audio group
+Missing audiogroup for sound: 'snd_b13' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
